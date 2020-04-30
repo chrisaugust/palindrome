@@ -1,8 +1,6 @@
 # Palindrome
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/palindrome`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem detects whether a string or integer is a palandrome, that is to say whether or not it is the same forwards and backwards.
 
 ## Installation
 
@@ -22,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require "palindrome"
+
+$ "Able was I ere I saw Elba".palindrome? # => true
+$ "Able was I ere I ate a cheese pizza".palindrome? #=> false
 
 ## Development
 
